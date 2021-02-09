@@ -18,4 +18,6 @@ for i in range(len(char_list)):
     asciim = chr(katoptr)
     asciimf.append(asciim)
 asciimf.reverse()
-print(asciimf)
+#kanw thn lista keimeno
+final = ''.join(asciimf)
+print(final)
